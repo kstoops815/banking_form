@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loan Application</title>
+</head>
+<body>
+	<header>
+		<h1>Loan Application</h1>
+	</header>
+
+	<form>
+		<fieldset>
+			<legend><strong>Applicant Information</strong></legend>
+			<label for="first name">First Name:</label><br />
+			<input type="text" placeholder="first name" name="first name"> <br />
+			<label for="middle initial">Middle Initial:</label><br />
+			<input type="text" placeholder="M.I." name="middle initial"> <br />
+			<label for="last name">Last Name:</label><br />
+			<input type="text" placeholder="last name" name="last name"> <br />
+			<label for="mailing address">Mailing Address:</label><br />
+			<input type="text" placeholder="mailing address" name="mailing address"> <br />
+			<label for="city">City:</label><br />
+			<input type="text" placeholder="city" name="city"> <br />
+			<label for="state">State:</label><br />
+			<input type="text" placeholder="state" name="state"> <br />
+			<label for="zip code">Zip Code:</label><br />
+			<input type="number" placeholder="zip code" name="zip code"> <br />
+		</fieldset>
+
+		<fieldset>
+		<legend><strong>Employment Information</strong></legend>
+			<label for="occupation">Occupation:</label><br />
+			<input type="text" placeholder="occupation" name="occupation"> <br />
+			<label for="employer">Employer:</label><br />
+			<input type="text" placeholder="employer" name="employer"> <br />
+			<label for="employer address">Employer Address:</label><br />
+			<input type="text" placeholder="employer address" name="employer address"> <br />
+			<label for="city">City:</label><br />
+			<input type="text" placeholder="city" name="city"> <br />
+			<label for="state">State:</label><br />
+			<input type="text" placeholder="state" name="state"> <br />
+			<label for="zip code">Zip Code:</label><br />
+			<input type="number" placeholder="zip code" name="zip code"> <br />
+		</fieldset>
+
+		<fieldset>
+			<legend><strong>Loan Details</strong></legend>
+				<span>Please select the type of loan for which you are applying.</span><br />
+				<select required>
+					<option value="">Select One</option>
+					<option value="commercial">Commercial</option>
+					<option value="real estate">Real Estate</option>
+					<option value="personal">Personal</option>
+					<option value="mortgage">Mortgage</option>
+				</select>
+				<br />
+				<span>What is the requested loan amount?</span><br />
+				<input type="number" name="loan amount"><br />
+				<span>Please select the length of the loan you are requesting.</span><br />
+				<input type="radio" name="loan length" value="5 years">5 Years<br />
+				<input type="radio" name="loan length" value="15 years">15 Years<br />
+				<input type="radio" name="loan length" value="30 years">30 Years<br />
+				<span>Please check all that apply.</span><br />
+				<input type="checkbox" name="condition">
+				<label for="commercial">I have a down payment.</label><br />				
+				<input type="checkbox" name="condition">
+				<label for="real estate">I am an out-of-state resident.</label><br />
+				<input type="checkbox" name="condition">
+				<label for="personal">I am married.</label><br />			
+				<input type="checkbox" name="condition">
+				<label for="mortgage">This loan will be co-signed.</label>
+		</fieldset>
+
+		<fieldset>
+			<legend><strong>Contact Information</strong></legend>
+			<label for="email" name="contact">Email Address:</label><br />
+			<input type="email" placeholder="email address" name="email"><br />
+			<label for="phone" name="phone">Phone Number:</label><br />
+			<input type="tel" placeholder="phone number" name="phone"><br />
+			<label for="linkedin">LinkedIn URL:</label><br />
+			<input type="url" placeholder="LinkedIn URL" name="linkedin"><br />
+		</fieldset>
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
