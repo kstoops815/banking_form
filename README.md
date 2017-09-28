@@ -33,6 +33,9 @@ Build a form that accepts a loan application. It must have the following fields.
 
 ### Screen shot of form
 
-![banking form screen shot no. 1](./images/Banking form #1.PNG)
+![banking form screen shot no. 1](./images/Banking-form-1.PNG)
 
-![banking form screen shot no. 2](./images/Banking form #2.PNG)
+![banking form screen shot no. 2](./images/Banking-form-2.PNG)
+
+
+### How do I run this project locally?
