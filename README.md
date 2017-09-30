@@ -1,7 +1,10 @@
 # Banking Form
 
+### Project Summary
+This is the first project I completed during my education at Nashville Software School. This project was assigned to us as beginning HTML practice.  There is no CSS included in this project, as we had not learned it at the time this project was completed.
+
 ### Task
-Build a form that accepts a loan application. It must have the following fields.
+Build a form that accepts a loan application. It must include the requirements listed below.
 
 ### Requirements
 1. Applicant first name
