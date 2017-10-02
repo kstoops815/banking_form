@@ -42,3 +42,9 @@ Build a form that accepts a loan application. It must include the requirements l
 
 
 ### How do I run this project locally?
+
+In order to run this project on your computer, please complete the following steps:
+  1. Clone the project by clicking on the green "Clone or Download" button above.
+  1. Run your terminal, type in git clone, then paste the information that was copied from github.
+  1. Inside the project folder, type in http-server -c-1.
+  1. Launch your internet browser and navigate to http://localhost:8080.
